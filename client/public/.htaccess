@@ -1,5 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{HTTP_HOST} !^spotify.tddc\.eu$ [NC,OR]
-RewriteCond %{HTTPS} =off
-RewriteRule ^(.*)$ https://spotify.tddc.eu/$1 [R=301,L]
